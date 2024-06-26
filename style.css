@@ -1,0 +1,132 @@
+/* body {
+    font-family: Arial, sans-serif;
+  }
+  
+
+  
+   form {
+    width: 50%;
+    margin: 40px auto;
+    padding: 20px;
+  }
+  
+  
+  
+  input[type="number"] {
+    width: 100%;
+    border: 1 px solid gray;
+    height: 15px;
+    padding: 5px;
+  }
+  
+    button[type="button"] {
+    padding: 10px;
+    cursor: pointer;
+  }
+   */
+   body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="number"] {
+    width: 93%;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="button"] {
+    width: 97%;
+    height: 40px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  #result {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #666;
+  }
+  @media only screen and (min-width: 1200px) {
+    form {
+      max-width: 600px;
+    }
+  }
+  
+  /* For laptop screens */
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    form {
+      max-width: 500px;
+    }
+  }
+  
+  /* For tablet screens */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    form {
+      max-width: 400px;
+    }
+    input[type="number"] {
+      height: 30px;
+    }
+    button[type="button"] {
+      height: 100%;
+    }
+  }
+  
+  /* For mobile screens */
+  @media only screen and (max-width: 767px) {
+    form {
+      max-width: 300px;
+    }
+    input[type="number"] {
+      height: 25px;
+    }
+    button[type="button"] {
+      height: 100%;
+    }
+    #result {
+      font-size: 16px;
+    }
+  }
+  
+  /* For small mobile screens */
+  @media only screen and (max-width: 479px) {
+    form {
+      max-width: 100%;
+      max-height: 100%;
+    }
+    input[type="number"] {
+      height: 20px;
+    }
+    button[type="button"] {
+      height: 100%;
+    }
+    #result {
+      font-size: 14px;
+    }
+  }
